@@ -1,0 +1,33 @@
+[http]
+	proxy = http://127.0.0.1:1081
+[user]
+	name = zjuyk
+	email = ownbyzjuyk@gmail.com
+	signingkey = A1CD8E7E
+[core]
+	editor = nano
+	pager =delta
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[https]
+	proxy = https://127.0.0.1:1081
+[init]
+	defaultBranch = master
+[delta]
+	features = side-by-side line-numbers decorations
+	syntax-theme = OneHalfDark
+	whitespace-error-stype = 22 reverse
+[delta "decorations"]
+	commit-decoration-style = bold yellow box ul
+	file-style = bold yellow ul
+	fire-decoration-style = box
+[pull]
+	rebase = false
+	gpgsign = false
+[gpg]
+	program = gpg2
