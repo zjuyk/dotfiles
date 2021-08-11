@@ -1,0 +1,38 @@
+[General]
+FreeFloating=true
+HistoryEnabled=true
+RetainPriorSearch=true
+history=shutdown -h now,telegram,yakuake ,fcitx5 &,fire,chrom,dolp,qv,qb,tele,virtual,virtu,mpv,qlive,feel,ao,emacs,hexchat,zathu,ala,jop,zathua,tool,pycharm,zath,flameshot gui -d 300,spe,in,key,wps,peek,typo,filelight,sys,fe,kvan,al,folo,night,timer,dingtalk,kate,music,tex,code,elisa,obs,oplin,fb,live
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_org.kde.dolphin.desktop,2 services_applications:org.inkscape.Inkscape.desktop,2 services_applications:typora.desktop,1 services_org.kde.konsole.desktop,3 services_applications:kvantummanager.desktop,1 services_guiscrcpy.desktop,2 services_org.kde.discover.desktop,1 services_kwincompositing.desktop,2 shell_kcmshell5,4 services_code-oss.desktop,1 shell_kodi,1 services_applications:wps-office-wpp.desktop,1 shell_fcitx5 &,1 shell_pycharm,2 services_applications:com.uploadedlobster.peek.desktop,1 services_applications:jetbrains-pycharm.desktop,2 services_applications:joplin.desktop,4 services_applications:org.qbittorrent.qBittorrent.desktop,3 services_applications:jetbrains-toolbox.desktop,1 services_org.kde.kamoso.desktop,1 services_org.kde.spectacle.desktop,1 services_crow-translate.desktop,1 services_org.kde.plasma.emojier.desktop,3 services_tor-browser.desktop,1 services_screenlocker.desktop,3 services_kcm_kscreen.desktop,1 services_FeelUOwn.desktop,1 services_applications:kcm_nightcolor.desktop,1 shell_flameshot gui -d 300,3 services_applications:virtualbox.desktop,9 services_applications:org.kde.dolphin.desktop,4 services_firefox.desktop,1 org.kde.activities_d7b17e38-8634-4093-a13f-5fc5a830a1c6,5 services_applications:ao.desktop,20 services_org.kde.yakuake.desktop,1 services_org.kde.kinfocenter.desktop,1 services_org.kde.krita.desktop,1 shell_yakuake config,14 services_applications:emacs.desktop,14 services_applications:feeluown.desktop,1 shell_fire,1 services_applications:com.github.johnfactotum.Foliate.desktop,1 services_texstudio.desktop,2 services_applications:org.kde.spectacle.desktop,1 services_joplin.desktop,1 services_org.kde.kontact.desktop,5 services_com.uploadedlobster.peek.desktop,1 windows_0_123731996,2 services_vnote.desktop,1 windows_0_161480719,1 services_FBReader.desktop,8 services_mpv.desktop,1 services_org.kde.korganizer.desktop,1 shell_kate,15 services_qliveplayer.desktop,1 shell_shutdown -h now,14 services_applications:firefox.desktop,2 windows_0_33554447,2 services_applications:org.kde.yakuake.desktop,1 services_applications:org.kde.filelight.desktop,2 services_com.obsproject.Studio.desktop,1 services_applications:org.flameshot.Flameshot.desktop,3 services_firefox-nightly.desktop,3 services_applications:mpv.desktop,1 services_applications:org.kde.ktimer.desktop,1 services_applications:keybase.desktop,3 services_applications:systemsettings.desktop,2 shell_mpv,1 shell_code,1 services_notion-app.desktop,6 services_kvantummanager.desktop,1 services_org.kde.knotes.desktop,2 services_applications:io.github.Hexchat.desktop,3 services_kcm_translations.desktop,2 services_kcm_nightcolor.desktop,3 services_org.kde.kate.desktop,2 services_applications:google-chrome.desktop,1 services_applications:wps-office-wps.desktop,1 services_chromium.desktop,1 services_pycharm-professional.desktop,1 services_org.kde.elisa.desktop,1 services_applications:wps-office-prometheus.desktop,2 services_deepin.com.qq.office.desktop,9 services_applications:telegramdesktop.desktop,1 services_org.kde.filelight.desktop,11 services_applications:Alacritty.desktop,2 services_netease-cloud-music.desktop,2 services_applications:qliveplayer.desktop,6 services_applications:org.pwmt.zathura.desktop,2 services_org.kde.kwalletmanager5.desktop,6 services_applications:qv2ray.desktop,11 services_org.qbittorrent.qBittorrent.desktop,1 services_kcm_energyinfo.desktop,1 services_ppet.desktop
+migrated=true
+
+[Plugins]
+CharacterRunnerEnabled=false
+DictionaryEnabled=false
+Kill RunnerEnabled=false
+PIM Contacts Search RunnerEnabled=false
+PowerDevilEnabled=false
+Spell CheckerEnabled=false
+baloosearchEnabled=false
+bookmarksEnabled=false
+browsertabsEnabled=false
+calculatorEnabled=false
+desktopsessionsEnabled=false
+katesessionsEnabled=false
+konsoleprofilesEnabled=false
+krunner_appstreamEnabled=false
+kwinEnabled=false
+locationsEnabled=false
+org.kde.activitiesEnabled=false
+org.kde.datetimeEnabled=false
+org.kde.windowedwidgetsEnabled=false
+placesEnabled=false
+plasma-desktopEnabled=false
+recentdocumentsEnabled=false
+servicesEnabled=true
+shellEnabled=true
+unitconverterEnabled=false
+webshortcutsEnabled=false
+windowsEnabled=false
