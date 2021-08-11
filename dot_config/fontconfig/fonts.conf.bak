@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
+<!-- 等宽字体：https://wiki.archlinux.org/index.php/Fonts#Monospaced -->
+<!-- 中文字体：https://wiki.archlinux.org/index.php/Fonts#Chinese,_Japanese,_Korean,_Vietnamese -->
+<!-- 主要配置：https://wiki.archlinux.org/index.php/Font_Configuration/Chinese_(简体中文)#Android®显示效果的字体参考配置 -->
+<!-- 异体字形：https://wiki.archlinux.org/index.php/Localization/Simplified_Chinese_(简体中文)#修正简体中文显示为异体（日文）字形 -->
+<fontconfig>
+ <!-- 关闭内嵌点阵字体 -->
+ <match target="font">
+  <edit name="embeddedbitmap" mode="assign">
+   <bool>false</bool>
+  </edit>
+ </match>
+ <!-- 英文默认字体使用 Noto Sans 和 Noto Serif -->
+ <!-- https://www.archlinux.org/packages/extra/any/noto-fonts/ -->
+ <match target="pattern">
+  <test name="family" qual="any">
+   <string>sans-serif</string>
+  </test>
+  <edit binding="strong" name="family" mode="prepend">
+   <string>Noto Sans</string>
+  </edit>
+ </match>
+ <match>
+  <test name="family" qual="any">
+   <string>serif</string>
+  </test>
+  <edit binding="strong" name="family" mode="prepend">
+   <string>Noto Serif</string>
+  </edit>
+ </match>
+ <!-- 等宽字体使用 Fira Code -->
+ <!-- https://www.archlinux.org/packages/community/any/ttf-fira-code/ -->
+ <match target="pattern">
+  <test name="family" qual="any">
+   <string>monospace</string>
+  </test>
+  <edit binding="strong" name="family" mode="prepend">
+   <string>Fira Code</string>
+  </edit>
+ </match>
+ <!-- 中文默认字体使用思源黑体和思源宋体 -->
+ <!-- https://www.archlinux.org/packages/community/any/adobe-source-han-sans-cn-fonts/ -->
+ <!-- https://www.archlinux.org/packages/community/any/adobe-source-han-serif-cn-fonts/ -->
+ <match>
+  <test compare="contains" name="lang">
+   <string>zh</string>
+  </test>
+  <test name="family">
+   <string>sans-serif</string>
+  </test>
+  <edit name="family" mode="prepend">
+   <string>Source Han Sans CN</string>
+  </edit>
+ </match>
+ <match>
+  <test compare="contains" name="lang">
+   <string>zh</string>
+  </test>
+  <test name="family">
+   <string>serif</string>
+  </test>
+  <edit name="family" mode="prepend">
+   <string>Source Han Serif CN</string>
+  </edit>
+ </match>
+ <!-- 把所有常见的中文字体映射到思源黑体或思源宋体，这样当这些字体未安装时
+    会使用思源黑体和思源宋体。解决特定程序指定使用某字体，并且在字体不存在情况
+    下不会使用 fallback 字体导致中文显示不正常的情况。 -->
+ <match target="pattern">
+  <test name="family" qual="any">
+   <string>WenQuanYi Zen Hei</string>
+  </test>
+  <edit binding="same" name="family" mode="assign">
+   <string>Source Han Sans CN</string>
+  </edit>
+ </match>
+ <match target="pattern">
+  <test name="family" qual="any">
+   <string>WenQuanYi Micro Hei</string>
+  </test>
+  <edit binding="same" name="family" mode="assign">
+   <string>Source Han Sans CN</string>
+  </edit>
+ </match>
+ <match target="pattern">
+  <test name="family" qual="any">
+   <string>WenQuanYi Micro Hei Light</string>
+  </test>
+  <edit binding="same" name="family" mode="assign">
+   <string>Source Han Sans CN</string>
+  </edit>
+ </match>
+ <match target="pattern">
+  <test name="family" qual="any">
+   <string>Microsoft YaHei</string>
+  </test>
+  <edit binding="same" name="family" mode="assign">
+   <string>Source Han Sans CN</string>
+  </edit>
+ </match>
+ <match target="pattern">
+  <test name="family" qual="any">
+   <string>SimHei</string>
+  </test>
+  <edit binding="same" name="family" mode="assign">
+   <string>Source Han Sans CN</string>
+  </edit>
+ </match>
+ <match target="pattern">
+  <test name="family" qual="any">
+   <string>SimSun</string>
+  </test>
+  <edit binding="same" name="family" mode="assign">
+   <string>Source Han Serif CN</string>
+  </edit>
+ </match>
+ <match target="pattern">
+  <test name="family" qual="any">
+   <string>SimSun-18030</string>
+  </test>
+  <edit binding="same" name="family" mode="assign">
+   <string>Source Han Serif CN</string>
+  </edit>
+ </match>
+ <match target="font">
+  <edit name="hinting" mode="assign">
+   <bool>true</bool>
+  </edit>
+ </match>
+ <match target="font">
+  <edit name="hintstyle" mode="assign">
+   <const>hintslight</const>
+  </edit>
+ </match>
+ <dir>~/.fonts</dir>
+</fontconfig>
