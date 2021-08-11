@@ -1,0 +1,27 @@
+[Appearance]
+BackgroundColor=203,255,135
+Skin=tabsonly
+Blur=true
+SkinInstalledWithKns=true
+TerminalHighlightOnManualActivation=true
+Translucency=true
+
+[Desktop Entry]
+DefaultProfile=myprofile.profile
+
+[Dialogs]
+ConfirmQuit=false
+FirstRun=false
+
+[DownloadDialog Settings]
+Height 1080=454
+Width 1920=700
+
+[Favorite Profiles]
+Favorites=
+
+[Window]
+KeepAbove=false
+KeepOpen=false
+ShowTabBar=false
+Width=50

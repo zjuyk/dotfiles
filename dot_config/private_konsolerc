@@ -1,0 +1,57 @@
+[Desktop Entry]
+DefaultProfile=profile.profile
+
+[DownloadDialog Settings]
+Height 1080=454
+Width 1920=700
+
+[Favorite Profiles]
+Favorites=profile.profile
+
+[FileDialogSize]
+Height 1080=480
+Width 1920=641
+
+[KFileDialog Settings]
+Recent Files[$e]=wall.png,file:$HOME/Pictures/cropped-1920-1080-678562.jpg,file:$HOME/Pictures/dst.png,file:$HOME/Pictures/wall.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=0
+iconViewIconSize=43
+
+[MainWindow]
+HDMI1 Height 1920x1080=1036
+HDMI1 Height 1920x1200=1156
+HDMI1 Width 1920x1080=1900
+HDMI1 Width 1920x1200=1900
+HDMI1 XPosition 1920x1080=10
+HDMI1 XPosition 1920x1200=10
+HDMI1 YPosition 1920x1080=34
+HDMI1 YPosition 1920x1200=34
+Height 1080=1036
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB2wAAASEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHABzAGUAcwBzAGkAbwBuAFQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAA==
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Width 1920=1900
+eDP-1 Height 1920x1080=1036
+eDP-1 Width 1920x1080=1900
+eDP1 HDMI1 Height 1920x1080=1036
+eDP1 HDMI1 Height 1920x1200=1180
+eDP1 HDMI1 Width 1920x1080=1900
+eDP1 HDMI1 Width 1920x1200=946
+eDP1 HDMI1 XPosition 1920x1080=10
+eDP1 HDMI1 YPosition 1920x1080=34
+eDP1 Height 1080=1036
+eDP1 Height 1920x1080=1036
+eDP1 Width 1920=946
+eDP1 Width 1920x1080=1900
+eDP1 XPosition=964
+eDP1 XPosition 1920x1080=10
+eDP1 YPosition=34
+eDP1 YPosition 1920x1080=34
+
+[SplitView]
+SplitViewVisibility=AlwaysHideSplitHeader
+
+[TabBar]
+TabBarVisibility=AlwaysHideTabBar
