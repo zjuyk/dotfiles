@@ -1,0 +1,4 @@
+# (https://wiki.archlinux.org/title/XDG_Base_Directory#Partial)
+prefix = ${XDG_DATA_HOME}/npm
+cache = ${XDG_CACHE_HOME}/npm
+tmp = ${XDG_RUNTIME_DIR}/npm
