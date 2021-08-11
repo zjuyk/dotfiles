@@ -1,0 +1,80 @@
+env:
+  TERM: alacritty
+
+# When true, bold text is drawn using the bright variant of colors.
+draw_bold_text_with_bright_colors: true
+
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: FiraCode Nerd Font # should be "Menlo" or something on macOS.
+    # Style can be specified to pick a specific face.
+    # style: Regular
+
+  # The bold font face
+  bold:
+    family: FiraCode Nerd Font # should be "Menlo" or something on macOS.
+    # Style can be specified to pick a specific face.
+    # style: Bold
+
+  # The italic font face
+  italic:
+    family: FiraCode Nerd Font # should be "Menlo" or something on macOS.
+    # Style can be specified to pick a specific face.
+    # style: Italic
+
+  # Point size of the font
+  size: 9.0
+
+# Background opacity
+background_opacity: 0.80
+
+# Colors (One Dark)
+#colors:
+#  primary:
+#    background: '#282c34'
+#    foreground: '#abb2bf'
+#  cursor:
+#    text:       CellBackground
+#    cursor:     '#528bff' # syntax-cursor-color
+#  selection:
+#    text:       CellForeground
+#    background: '#3e4451' # syntax-selection-color
+#  normal:
+#    black:      '#5c6370' # mono-3
+#    red:        '#e06c75' # red 1
+#    green:      '#98c379'
+#    yellow:     '#e5c07b' # orange 2
+#    blue:       '#61afef'
+#    magenta:    '#c678dd'
+#    cyan:       '#56b6c2'
+#    white:      '#828997' # mono-2
+
+# Colors (Nord)
+colors:
+   # Default colors
+   primary:
+     background: '#2E3440'
+     foreground: '#D8DEE9'
+
+   # Normal colors
+   normal:
+     black:   '#3B4252'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#88C0D0'
+     white:   '#E5E9F0'
+
+   # Bright colors
+   bright:
+     black:   '#4C566A'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#8FBCBB'
+     white:   '#ECEFF4'
