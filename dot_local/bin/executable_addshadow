@@ -1,0 +1,24 @@
+#!/bin/bash -e
+
+# Get th picture from flameshot
+flameshot gui -r >> /tmp/src.png &
+wait $!
+
+# add shadow, round corner, border and watermark
+convert /tmp/src.png \
+	  \( +clone -alpha extract \
+	  -draw 'fill black polygon 0,0 0,8 8,0 fill white circle 8,8 8,0' \
+	  \( +clone -flip \) -compose Multiply -composite \
+	  \( +clone -flop \) -compose Multiply -composite \
+    \) -alpha off -compose CopyOpacity -composite /tmp/output.png
+
+convert /tmp/output.png -bordercolor none -border 20 \( +clone -background black -shadow 100x15+0+0 \) \
+	+swap -background transparent -layers merge +repage /tmp/des.png
+
+composite -gravity SouthEast ~/.local/bin/watermark.png /tmp/des.png /tmp/des.png
+
+# Send the picture to clipboard
+xclip -selection clipboard -t image/png -i /tmp/des.png
+
+# remove the left pictures
+rm /tmp/src.png /tmp/des.png /tmp/output.png
