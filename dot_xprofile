@@ -1,0 +1,11 @@
+# set EDITOR
+export VISUAL=nano
+export EDITOR=nano
+
+# set fcitx5 variables
+export GTK_IM_MODULE=fcitx5
+export QT_IM_MODULE=fcitx5
+export XMODIFIERS="@im=fcitx5"
+
+# firefox vaapi
+export MOZ_X11_EGL=1
