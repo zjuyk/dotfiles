@@ -189,7 +189,7 @@ bindsym $mod+r mode "resize"
 
 exec --no-startup-id picom --experimental-backends -b
 exec_always --no-startup-id numlockx on
-exec_always feh --bg-scale "$HOME/Pictures/piv.jpg"
+exec_always feh --bg-scale "$HOME/Pictures/wallpaper.png"
 exec --no-startup-id dunst &
 exec --no-startup-id copyq &
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
