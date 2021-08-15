@@ -11,4 +11,4 @@ export XMODIFIERS="@im=fcitx5"
 export MOZ_X11_EGL=1
 
 # firefox qt dialogs
-export GTK_USE_PORTAL=1
+# export GTK_USE_PORTAL=1
