@@ -51,3 +51,7 @@ alias restart="sudo systemctl restart"
 # pastebin
 # https://fars.ee/#examples
 alias pb 'curl -F "c=@-" "https://fars.ee/"'
+
+# git
+# goto root dir of a git repo
+alias cdg="cd (git rev-parse --show-toplevel)"

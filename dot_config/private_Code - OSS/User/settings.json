@@ -104,6 +104,5 @@
         "titleBar.activeBackground": "#00000030"
     },
     "window.menuBarVisibility": "compact",
-    "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Nord"
+    "editor.minimap.enabled": false
 }
