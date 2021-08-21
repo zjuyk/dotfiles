@@ -15,7 +15,9 @@ Width 1920=274
 FontWeight=50
 
 [ContextMenu]
+ShowAddToPlaces=false
 ShowCopyMoveMenu=true
+ShowDuplicateHere=false
 
 [Desktop Entry]
 DefaultProfile=Profile 3.profile
@@ -53,15 +55,15 @@ eDP1 Width 1920x1080=469
 [MainWindow]
 HDMI1 Height 1920x1080=1036
 HDMI1 Height 1920x1200=1156
-HDMI1 Width 1920x1080=946
+HDMI1 Width 1920x1080=1900
 HDMI1 Width 1920x1200=1900
-HDMI1 XPosition 1920x1080=964
+HDMI1 XPosition 1920x1080=10
 HDMI1 XPosition 1920x1200=10
 HDMI1 YPosition 1920x1080=34
 HDMI1 YPosition 1920x1200=34
 Height 1080=1036
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAAEoAAAD4vwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAqAAAAfAAAABYA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAqAAAD4gAAAGIA////AAAAAQAAALwAAAPi/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAACoAAAPiAAABGgD///8AAAADAAAHbAAAAMf8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHbAAAACwA////AAABxgAAA+IAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEoAAAD4vwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAqAAAAfAAAABYA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAqAAAD4gAAAGIA////AAAAAQAAALwAAAPi/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAACoAAAPiAAABPgD///8AAAADAAAHbAAAAMf8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHbAAAACwA////AAAFgAAAA+IAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1920=1900
 eDP1 HDMI1 Height 1920x1080=1036
@@ -89,12 +91,12 @@ CompletionMode=1
 History=za,zathu,flame,fb,fbr,kate,ark,web
 
 [PreviewSettings]
-Plugins=pothumbnail,jpegthumbnail,kraorathumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,svgthumbnail,imagethumbnail,fontthumbnail,directorythumbnail,textthumbnail,comicbookthumbnail,ebookthumbnail,ffmpegthumbs,audiothumbnail
+Plugins=audiothumbnail,comicbookthumbnail,ebookthumbnail,directorythumbnail,fontthumbnail,pothumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
 
 [SettingsDialog]
-HDMI1 Height 1920x1080=509
+HDMI1 Height 1920x1080=508
 HDMI1 Height 1920x1200=509
-HDMI1 Width 1920x1080=640
+HDMI1 Width 1920x1080=647
 HDMI1 Width 1920x1200=540
 Height 1080=520
 Width 1920=571

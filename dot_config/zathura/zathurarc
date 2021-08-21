@@ -1,9 +1,12 @@
+# 开启选中复制
 set selection-clipboard clipboard
 
+# 设置字体和前后背景色
 set font			"Fira Mono 13"
 set default-fg 			"#eceff4"
 set default-bg 			"#2e3440"
 
+# 其余颜色配置
 set completion-bg		"#3b4252"
 set completion-fg		"#eceff4"
 set completion-highlight-bg	"#4c566a"
@@ -42,4 +45,8 @@ set render-loading-fg		"#eceff4"
 set highlight-color		"#88c0d0"
 set highlight-active-color	"#5e81ac"
 
+# 自适应宽度
 set adjust-open			"width"
+
+# 开启滚动条
+set show-v-scrollbar    "true"

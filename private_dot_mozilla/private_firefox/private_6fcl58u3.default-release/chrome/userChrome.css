@@ -619,9 +619,9 @@ toolbarseparator {
 #viewButton > menupopup menupopup {
   -moz-appearance: none !important;
   background-color: var(--base_color1) !important;
-  border: 1px solid var(--base_color2) !important;
+  border: 0px solid var(--base_color2) !important;
   border-radius: 3px !important;
-  padding: 4px 2px 4px 2px !important;
+  padding: 0px 0px 0px 0px !important;
   margin: 0px 0px 0px 0px !important;
   min-width: 226px !important;
 }
@@ -652,8 +652,8 @@ toolbarseparator {
 #widget-overflow #customizationPanelItemContextMenu :-moz-any(menuitem, menu) {
   -moz-appearance: none !important;
   color: var(--orbit_color) !important;
-  padding: 0px 0px 2px 0px !important;
-  min-height: 22px !important;
+  padding: 0px 0px 0px 0px !important;
+  min-height: 28px !important;
 }
 
 #back-button > menupopup menugroup,

@@ -1,7 +1,7 @@
 [Appearance]
 BackgroundColor=203,255,135
-Skin=tabsonly
 Blur=true
+Skin=tabsonly
 SkinInstalledWithKns=true
 TerminalHighlightOnManualActivation=true
 Translucency=true
@@ -21,6 +21,7 @@ Width 1920=700
 Favorites=
 
 [Window]
+Height=47
 KeepAbove=false
 KeepOpen=false
 ShowTabBar=false
