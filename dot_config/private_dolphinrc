@@ -43,8 +43,8 @@ ViewPropsTimestamp=2019,5,25,0,22,45
 FontWeight=50
 
 [KPropertiesDialog]
-HDMI1 Height 1920x1080=560
-HDMI1 Width 1920x1080=474
+HDMI1 Height 1920x1080=626
+HDMI1 Width 1920x1080=532
 Height 1080=559
 Width 1920=502
 eDP1 Height 1080=535
@@ -63,7 +63,8 @@ HDMI1 YPosition 1920x1080=34
 HDMI1 YPosition 1920x1200=34
 Height 1080=1036
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAAEoAAAD4vwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAqAAAAfAAAABYA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAqAAAD4gAAAGIA////AAAAAQAAALwAAAPi/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAACoAAAPiAAABPgD///8AAAADAAAHbAAAAMf8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHbAAAACwA////AAAFgAAAA+IAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEoAAAD4vwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAqAAAAfAAAABYA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAqAAAD4gAAAGIA////AAAAAQAAALwAAAPi/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAACoAAAPiAAABGgD///8AAAADAAAHbAAAAMf8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHbAAAACwA////AAAFgAAAA+IAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1920=1900
 eDP1 HDMI1 Height 1920x1080=1036
@@ -91,7 +92,7 @@ CompletionMode=1
 History=za,zathu,flame,fb,fbr,kate,ark,web
 
 [PreviewSettings]
-Plugins=audiothumbnail,comicbookthumbnail,ebookthumbnail,directorythumbnail,fontthumbnail,pothumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+Plugins=pothumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,gsthumbnail,svgthumbnail,imagethumbnail,directorythumbnail,textthumbnail,ebookthumbnail,ffmpegthumbs,audiothumbnail
 
 [SettingsDialog]
 HDMI1 Height 1920x1080=508
@@ -111,4 +112,4 @@ Height 1080=319
 Width 1920=377
 
 [kuick-move]
-Paths[$e]=$HOME/Desktop/,$HOME/Desktop/My Files/Novels/,$HOME/Pictures/
+Paths[$e]=$HOME/github-repo/mpv-osc-morden/,$HOME/Desktop/,$HOME/Desktop/My Files/Novels/,$HOME/Pictures/

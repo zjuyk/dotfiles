@@ -52,4 +52,6 @@ alias restart="sudo systemctl restart"
 
 # pastebin
 # https://fars.ee/#examples
-alias pb 'curl -F "c=@-" "https://fars.ee/"'
+alias pb='curl -F "c=@-" "https://fars.ee/"'
+
+eval "$(starship init bash)"

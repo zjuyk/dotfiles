@@ -3,6 +3,10 @@ local o = {
     -- you need to bind a save key if you disable it
     auto_save = true,
     save_bind = "",
+    -- When automatically saving, skip entries with playback positions
+    -- past this value, in percent. 100 saves all, around 95 is
+    -- good for skipping videos that have reached final credits.
+    auto_save_skip_past = 100,
     -- Runs automatically when --idle
     auto_run_idle = true,
     -- Write watch later for current file when switching
@@ -43,7 +47,7 @@ function get_path()
     local path = mp.get_property("path")
     local title = mp.get_property("media-title"):gsub("\"", "")
     if not path then return end
-    if path:find("http.?://") then
+    if path:find("http.?://") or path:find("magnet:%?") or path:find("rtmp://") then
         return title, path
     else
         return title, utils.join_path(mp.get_property("working-directory"), path)
@@ -90,13 +94,7 @@ end
 function read_log_table()
     return read_log(function(line)
         local t, p
-        -- for compatibility with old log format
-        if line:find("^.-%] \".-\" |") then
-            t, p = line:match("^.-\"(.-)\" | (.*)$")
-        else
-            p = line:match("^%[.-%] (.*)$")
-            t = p
-        end
+        t, p = line:match("^.-\"(.-)\" | (.*)$")
         return {title = t, path = p}
     end)
 end
@@ -268,7 +266,16 @@ function display_list()
 end
 
 if o.auto_save then
-    mp.register_event("end-file", function() write_log(false) end)
+    -- Using hook, as at the "end-file" event the playback position info is already unset.
+    mp.add_hook("on_unload", 9, function ()
+        local pos = mp.get_property("percent-pos")
+        if not pos then return end
+        if tonumber(pos) <= o.auto_save_skip_past then
+            write_log(false)
+        else
+            write_log(true)
+        end
+    end)
 else
     mp.add_key_binding(o.save_bind, "recent-save", function()
         write_log(false)
@@ -277,7 +284,9 @@ else
 end
 
 if o.auto_run_idle then
-    mp.register_event("idle", display_list)
+    mp.observe_property("idle-active", "bool", function(_, v)
+        if v then display_list() end
+    end)
 end
 
 mp.register_event("file-loaded", function()

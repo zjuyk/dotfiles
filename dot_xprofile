@@ -3,12 +3,14 @@ export VISUAL=nano
 export EDITOR=nano
 
 # set fcitx5 variables
-export GTK_IM_MODULE=fcitx5
-export QT_IM_MODULE=fcitx5
-export XMODIFIERS="@im=fcitx5"
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
 
 # firefox vaapi
 export MOZ_X11_EGL=1
 
-# firefox qt dialogs
-# export GTK_USE_PORTAL=1
+# vdpau for nvidia
+# export LIBVA_DRIVER_NAME=vdpau
+# export LIBVA_DRIVERS_PATH=/usr/lib/dri/
+# export VDPAU_DRIVER=nvidia
