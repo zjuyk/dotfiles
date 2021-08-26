@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="/assets/banner.png"></img>
+<img src="/assets/zjuyksvg.svg"></img>
 </p>
 
 
