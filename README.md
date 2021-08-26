@@ -1,6 +1,7 @@
-<a align="center">
+
+<p align="center">
 <img src="/assets/banner.png"></img>
-</a>
+</p>
 
 
 Dotfiles managed by [chezmoi](https://github.com/twpayne/chezmoi)
