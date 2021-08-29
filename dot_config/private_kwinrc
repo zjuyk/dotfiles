@@ -9,7 +9,6 @@ GLPreferBufferSwap=a
 GLTextureFilter=1
 HiddenPreviews=5
 OpenGLIsUnsafe=false
-WindowsBlockCompositing=false
 XRenderSmoothScale=false
 
 [Desktops]
@@ -28,6 +27,16 @@ Rows=1
 
 [DrmOutputs][2968642949][2968642949]
 Scale=1
+
+[DrmOutputs][5f346d2fb3][a034bd70-526e-50c8-8c0a-086014137e51]
+Mode=1920x1080_60000
+Scale=1
+Transform=normal
+
+[DrmOutputs][5f346d2fb3][d369b937-097f-5d8c-8430-52e221cb3551]
+Mode=1920x1080_59996
+Scale=1
+Transform=normal
 
 [DrmOutputs][809478d3ef][809478d3ef]
 Scale=1
