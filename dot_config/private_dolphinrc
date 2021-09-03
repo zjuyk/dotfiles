@@ -65,7 +65,6 @@ HDMI1 YPosition 1920x1080=34
 HDMI1 YPosition 1920x1200=34
 Height 1080=1036
 MenuBar=Disabled
-RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAwAAAAAAAAEoAAAEWvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAqAAAAfAAAABYA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAqAAAEWgAAAGIA////AAAAAQAAALwAAARa/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAACoAAARaAAABGgD///8AAAADAAAHbAAAAMf8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHbAAAACwA////AAAFgAAABFoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1920=1900
@@ -91,7 +90,7 @@ ConfirmEmptyTrash=true
 
 [Open-with settings]
 CompletionMode=1
-History=za,zathu,flame,fb,fbr,kate,ark,web
+History=ark,za,zathu,flame,fb,fbr,kate,web
 
 [PreviewSettings]
 Plugins=pothumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,gsthumbnail,svgthumbnail,imagethumbnail,directorythumbnail,textthumbnail,ebookthumbnail,ffmpegthumbs,audiothumbnail
