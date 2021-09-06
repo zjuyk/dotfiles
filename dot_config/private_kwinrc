@@ -124,6 +124,7 @@ wobblywindowsEnabled=true
 zoomEnabled=false
 
 [Script-Parachute]
+desktopsBarPlacement=2
 showDesktopShadows=true
 
 [Script-desktopchangeosd]

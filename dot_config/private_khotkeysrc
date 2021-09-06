@@ -126,7 +126,7 @@ DataCount=5
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
-DataCount=2
+DataCount=1
 Enabled=true
 Name=KMenuEdit
 SystemGroup=1
@@ -137,53 +137,27 @@ Comment=
 ConditionsCount=0
 
 [Data_1_1]
-Comment=评论
+Comment=Global keyboard shortcut to launch Konsole
 Enabled=true
-Name=搜索
-Type=SIMPLE_ACTION_DATA
+Name=Launch Konsole
+Type=MENUENTRY_SHORTCUT_ACTION_DATA
 
 [Data_1_1Actions]
 ActionsCount=1
 
 [Data_1_1Actions0]
-CommandURL=http://google.com
-Type=COMMAND_URL
+CommandURL=org.kde.konsole.desktop
+Type=MENUENTRY
 
 [Data_1_1Conditions]
 Comment=
 ConditionsCount=0
 
 [Data_1_1Triggers]
-Comment=简单动作
-TriggersCount=1
-
-[Data_1_1Triggers0]
-Key=
-Type=SHORTCUT
-Uuid={d03619b6-9b3c-48cc-9d9c-a2aadb485550}
-
-[Data_1_2]
-Comment=Global keyboard shortcut to launch Konsole
-Enabled=true
-Name=Launch Konsole
-Type=MENUENTRY_SHORTCUT_ACTION_DATA
-
-[Data_1_2Actions]
-ActionsCount=1
-
-[Data_1_2Actions0]
-CommandURL=org.kde.konsole.desktop
-Type=MENUENTRY
-
-[Data_1_2Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_1_2Triggers]
 Comment=Simple_action
 TriggersCount=1
 
-[Data_1_2Triggers0]
+[Data_1_1Triggers0]
 Key=Meta+Return
 Type=SHORTCUT
 Uuid={b65330e8-63c0-451a-b3ec-387e51e4fd86}
@@ -1033,7 +1007,7 @@ Uuid={cd521d76-4f61-461a-9dc9-1d8f3d30900d}
 
 [Data_5]
 Comment=enable i3lock
-Enabled=true
+Enabled=false
 Name=lock
 Type=SIMPLE_ACTION_DATA
 

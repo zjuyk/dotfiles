@@ -59,7 +59,7 @@ wallpaperplugin=com.github.zzag.dynamic
 
 [Containments][153][ConfigDialog]
 DialogHeight=1032
-DialogWidth=1920
+DialogWidth=1280
 
 [Containments][153][Configuration]
 PreloadWeight=0
@@ -117,7 +117,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][154][Applets][155][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 immutability=1
 
 [Containments][154][Applets][155][Configuration][ConfigDialog]
@@ -264,7 +264,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][154][Applets][190][Configuration][General]
-lastReloadedMsJson={"cache_5a5440a6c6026f3e61c6aee598cae8dc":1571550831418,"cache_b8baa152deebc05ae65dc213b70d2fef":1630708478702,"cache_df637705819473c47dcf1e2c7afceb9b":1614075041418,"cache_53c447f777376178d2cd67c89a9c54ff":1614317342612}
+lastReloadedMsJson={"cache_5a5440a6c6026f3e61c6aee598cae8dc":1571550831418,"cache_b8baa152deebc05ae65dc213b70d2fef":1630964931838,"cache_df637705819473c47dcf1e2c7afceb9b":1614075041418,"cache_53c447f777376178d2cd67c89a9c54ff":1614317342612}
 places=[{"providerId":"yrno","placeIdentifier":"China/ZheJiang/HangZhou","placeAlias":"HangZhou"},{"providerId":"owm","placeIdentifier":"1785657","placeAlias":"GaoAn"},{"providerId":"owm","placeIdentifier":"1796236","placeAlias":"ShangHai"}]
 
 [Containments][154][Applets][199]
@@ -279,11 +279,14 @@ immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][154][Applets][216][Configuration]
-PreloadWeight=42
+PreloadWeight=57
 
 [Containments][154][Applets][216][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][154][Applets][216][Configuration][General]
+history=#59656e
 
 [Containments][154][Applets][230]
 immutability=1
@@ -312,7 +315,7 @@ immutability=1
 plugin=org.kde.plasma.chiliclock
 
 [Containments][154][Applets][242][Configuration]
-PreloadWeight=38
+PreloadWeight=53
 
 [Containments][154][Applets][242][Configuration][Appearance]
 customOffsetX=47.68518518518518
@@ -340,7 +343,7 @@ immutability=1
 plugin=org.kde.plasma.inlineBattery
 
 [Containments][154][Applets][249][Configuration]
-PreloadWeight=5
+PreloadWeight=15
 
 [Containments][154][Applets][249][Configuration][ConfigDialog]
 DialogHeight=540
@@ -527,7 +530,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][154][Applets][293][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][154][Applets][293][Configuration][Appearance]
 chartFace=org.kde.ksysguard.piechart
@@ -678,7 +681,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][159][Applets][197][Configuration]
-PreloadWeight=54
+PreloadWeight=100
 
 [Containments][159][Applets][208][Configuration]
 PreloadWeight=42
@@ -718,7 +721,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][159][Applets][270][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][159][Applets][273][Configuration]
 PreloadWeight=42
@@ -728,7 +731,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][159][Applets][274][Configuration]
-PreloadWeight=20
+PreloadWeight=25
 
 [Containments][159][Applets][274][Configuration][ConfigDialog]
 DialogHeight=540
@@ -739,7 +742,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][159][Applets][275][Configuration]
-PreloadWeight=5
+PreloadWeight=10
 
 [Containments][159][Applets][278][Configuration]
 PreloadWeight=42

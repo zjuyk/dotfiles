@@ -53,3 +53,11 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;; telega proxy
+;(setq telega-proxies
+;      (list
+;       '(:server "127.0.0.1" :port 1080 :enable t
+;                 :type (:@type "proxyTypeSocks5"
+;                               :username "" :password ""))
+;       ))
