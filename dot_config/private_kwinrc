@@ -23,6 +23,8 @@ Name_1=Home
 Name_2=Addition
 Name_3=Addition
 Name_4=Standby
+Name_5=Standby
+Name_6=Standby
 Number=6
 Rows=1
 
@@ -101,26 +103,30 @@ NightTemperature=4100
 [Plugins]
 ParachuteEnabled=true
 blurEnabled=true
-contrastEnabled=true
+contrastEnabled=false
 coverswitchEnabled=true
 cubeEnabled=true
 cubeslideEnabled=true
 desktopchangeosdEnabled=false
-flipswitchEnabled=true
+desktopgridEnabled=false
 forceblurEnabled=true
 highlightwindowEnabled=true
 kwin-script-tilingEnabled=true
-kwin4_effect_activityswitchingEnabled=true
+kwin4_effect_fadingpopupsEnabled=false
+kwin4_effect_fullscreenEnabled=false
+kwin4_effect_maximizeEnabled=false
+kwin4_effect_morphingpopupsEnabled=false
+kwin4_effect_rubberband_maximizeEnabled=false
 kwin4_effect_shapecornersEnabled=true
 kwin4_effect_slidingnotificationsEnabled=true
-kwin4_effect_squashEnabled=false
-magiclampEnabled=true
+kwin4_effect_translucencyEnabled=false
 magnifierEnabled=true
 minimizeallEnabled=false
+presentwindowsEnabled=false
+screenedgeEnabled=false
 slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
-wobblywindowsEnabled=true
 zoomEnabled=false
 
 [Script-Parachute]
