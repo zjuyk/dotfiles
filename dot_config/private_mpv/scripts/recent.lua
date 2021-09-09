@@ -12,7 +12,7 @@ local o = {
     -- Write watch later for current file when switching
     write_watch_later = true,
     -- Display menu bind
-    display_bind = "`",
+    display_bind = "TAB",
     -- Middle click: Select; Right click: Exit;
     -- Scroll wheel: Up/Down
     mouse_controls = true,
