@@ -347,9 +347,15 @@ toolbar
 }
 
 /*================== URL BAR ==================*/
-#urlbar {
+#urlbar .urlbar-input-box {
   text-align: center !important;
 }
+
+/* right click on urlbar context align */
+#urlbar .textbox-contextmenu  {
+  text-align: left !important;
+}
+
 #urlbar[breakout][breakout-extend] {
   top: 5px !important;
   left: 0px !important;
@@ -989,7 +995,7 @@ menupopup .menu-iconic-icon {
   > #customizationPanelItemContextMenu
   menuitem[type="checkbox"]
   > .menu-iconic-text {
-  margin-left: 15px !important;
+  /* margin-left: 15px !important; */
   -moz-appearance: none !important;
 }
 

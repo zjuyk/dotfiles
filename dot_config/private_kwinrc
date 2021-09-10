@@ -127,6 +127,7 @@ screenedgeEnabled=false
 slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
+wobblywindowsEnabled=true
 zoomEnabled=false
 
 [Script-Parachute]
