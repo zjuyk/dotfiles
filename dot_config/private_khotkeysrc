@@ -122,7 +122,7 @@ ForegroundPositive[$d]
 ForegroundVisited[$d]
 
 [Data]
-DataCount=5
+DataCount=6
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
@@ -1030,6 +1030,70 @@ TriggersCount=1
 Key=Meta+L
 Type=SHORTCUT
 Uuid={ca21edc6-10e4-4e5f-b1ec-0648eff2706e}
+
+[Data_6]
+Comment=Comment
+DataCount=2
+Enabled=true
+Name=nerd-dication
+SystemGroup=0
+Type=ACTION_DATA_GROUP
+
+[Data_6Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_6_1]
+Comment=Start dictation\s
+Enabled=true
+Name=begin
+Type=SIMPLE_ACTION_DATA
+
+[Data_6_1Actions]
+ActionsCount=1
+
+[Data_6_1Actions0]
+CommandURL=/home/zjuyk/Desktop/nerd-dictation/nerd-dictation begin --pulse-device-name alsa_output.pci-0000_00_1f.3.analog-stereo.monitor
+Type=COMMAND_URL
+
+[Data_6_1Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_6_1Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_6_1Triggers0]
+Key=Ctrl+Alt+R
+Type=SHORTCUT
+Uuid={9c41f4b5-259b-4b5a-b8b1-6d65edebbe4d}
+
+[Data_6_2]
+Comment=End dication
+Enabled=true
+Name=end
+Type=SIMPLE_ACTION_DATA
+
+[Data_6_2Actions]
+ActionsCount=1
+
+[Data_6_2Actions0]
+CommandURL=/home/zjuyk/Desktop/nerd-dictation/nerd-dictation end
+Type=COMMAND_URL
+
+[Data_6_2Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_6_2Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_6_2Triggers0]
+Key=Ctrl+Alt+E
+Type=SHORTCUT
+Uuid={6e5b56c1-ad8d-46c9-9fee-e2e30589bc37}
 
 [DirSelect Dialog]
 DirSelectDialog Size[$d]
