@@ -20,3 +20,7 @@ map <F3> :NERDTreeToggle<CR>
  \ exe "normal g'\"" |
  \ endif
  endif
+
+ set ts=4
+ set sw=4
+ set autoindent
