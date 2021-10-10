@@ -58,3 +58,6 @@ alias cdg="cd (git rev-parse --show-toplevel)"
 
 # nvim
 alias vim="nvim"
+
+# helix
+alias hx="helix"
