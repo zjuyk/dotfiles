@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend
 
 [Compositing]
 Backend=OpenGL
@@ -105,7 +105,6 @@ blurEnabled=true
 contrastEnabled=false
 coverswitchEnabled=true
 cubeEnabled=true
-cubeslideEnabled=true
 desktopchangeosdEnabled=false
 desktopgridEnabled=false
 forceblurEnabled=true
@@ -123,7 +122,6 @@ magnifierEnabled=true
 minimizeallEnabled=false
 presentwindowsEnabled=false
 screenedgeEnabled=false
-slideEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 wobblywindowsEnabled=true
@@ -162,11 +160,8 @@ ActivitiesMode=1
 ApplicationsMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
-DesktopLayout=org.kde.breeze.desktop
-DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=2
 HighlightWindows=true
-LayoutName=org.kde.breeze.desktop
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0
@@ -201,5 +196,3 @@ ButtonsOnLeft=XIA
 ButtonsOnRight=M
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Nordic

@@ -104,5 +104,11 @@
         "titleBar.activeBackground": "#00000030"
     },
     "window.menuBarVisibility": "compact",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
 }
