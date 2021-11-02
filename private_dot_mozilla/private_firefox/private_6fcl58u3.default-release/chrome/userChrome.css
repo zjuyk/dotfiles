@@ -659,7 +659,7 @@ toolbarseparator {
   -moz-appearance: none !important;
   color: var(--orbit_color) !important;
   padding: 0px 0px 0px 0px !important;
-  min-height: 28px !important;
+  min-height: 24px !important; /* context menu minial height */
 }
 
 #back-button > menupopup menugroup,
