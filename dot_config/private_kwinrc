@@ -16,14 +16,12 @@ Id_1=8416cd52-ae0c-4218-917e-812ce9a772e6
 Id_2=411ba39f-c513-4a08-b67a-2368352c1bd5
 Id_3=a5593727-7400-4a3b-942a-de0c806669a6
 Id_4=b4f1a95c-88c7-490a-a8a7-299cad7f1964
-Id_5=4ae6b900-4d7b-4dca-bce2-a7c0db51a654
-Id_6=e11d5e41-05dc-451a-8fa5-fa9236ccf886
+Id_5=80aea9c8-6186-494d-ab6a-a4ea9a64a46b
+Id_6=2ab7953d-2711-4207-afff-af803b35ee5e
 Name_1=Home
 Name_2=Addition
 Name_3=Addition
 Name_4=Standby
-Name_5=Standby
-Name_6=Standby
 Number=6
 Rows=1
 
@@ -62,8 +60,10 @@ ZPosition=210
 
 [Effect-DesktopGrid]
 BorderActivate=9
-BorderWidth=5
+BorderWidth=2
+CustomLayoutRows=3
 LayoutMode=2
+ShowAddRemove=false
 
 [Effect-FlipSwitch]
 TabBox=true
@@ -100,13 +100,12 @@ LongitudeAuto=139.7514
 NightTemperature=4100
 
 [Plugins]
-ParachuteEnabled=true
+ParachuteEnabled=false
 blurEnabled=true
 contrastEnabled=true
 coverswitchEnabled=true
 cubeEnabled=true
 desktopchangeosdEnabled=false
-desktopgridEnabled=false
 forceblurEnabled=false
 highlightwindowEnabled=true
 kwin-script-tilingEnabled=true
@@ -196,3 +195,5 @@ ButtonsOnLeft=XIA
 ButtonsOnRight=M
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
+library=org.kde.breezeenhanced
+theme=BreezeEnhanced

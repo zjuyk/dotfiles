@@ -1,7 +1,7 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-2978428b-6786-4ce0-8bb3-e87c11db5f05=none,none,Switch to activity "Work"
-switch-to-activity-41a5efbb-656c-406f-90d3-90fec880388b=none,none,Switch to activity "Test"
+switch-to-activity-41a5efbb-656c-406f-90d3-90fec880388b=none,none,Switch to activity "Game"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
@@ -107,6 +107,7 @@ MoveZoomDown=none,none,将缩放区域向下移动
 MoveZoomLeft=none,none,将缩放区域向左移动
 MoveZoomRight=none,none,将缩放区域向右移动
 MoveZoomUp=none,none,将缩放区域向上移动
+Overview=,Meta+Ctrl+D,Toggle Overview
 Parachute=Meta+Ctrl+D,none,Parachute
 Remove Window From Group=none,none,从分组中移除窗口
 Setup Window Shortcut=none,none,Setup Window Shortcut

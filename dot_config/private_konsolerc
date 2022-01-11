@@ -57,3 +57,6 @@ SplitViewVisibility=AlwaysHideSplitHeader
 
 [TabBar]
 TabBarVisibility=AlwaysHideTabBar
+
+[UiSettings]
+ColorScheme=Default

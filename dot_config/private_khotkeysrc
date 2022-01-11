@@ -1118,6 +1118,7 @@ emoticonsTheme[$d]
 parseMode[$d]
 
 [General]
+AccentColor[$d]
 BrowserApplication[$d]
 ColorScheme[$d]
 Name[$d]

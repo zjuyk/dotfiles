@@ -50,17 +50,22 @@ EnumerateSkipFirst=False
 ActiveByDefault=False
 # Share Input State
 ShareInputState=No
+# Show preedit in application
+PreeditEnabledByDefault=True
 # Show Input Method Information when switch input method
 ShowInputMethodInformation=True
 # Show Input Method Information when changing focus
 showInputMethodInformationWhenFocusIn=False
+# Show compact input method information
+CompactInputMethodInformation=True
+# Show first input method information
+ShowFirstInputMethodInformation=True
 # Default page size
 DefaultPageSize=5
 # Force Enabled Addons
 EnabledAddons=
+# Force Disabled Addons
+DisabledAddons=
 # Preload input method to be used by default
 PreloadInputMethod=True
-
-[Behavior/DisabledAddons]
-0=kimpanel
 

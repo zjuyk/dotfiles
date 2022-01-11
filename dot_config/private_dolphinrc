@@ -1,6 +1,10 @@
+HDMI1 Height 1920x1080=1036
+HDMI1 Width 1920x1080=1900
+HDMI1 XPosition 1920x1080=10
+HDMI1 YPosition 1920x1080=34
 Height 1080=1036
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAAC9AAAD4vwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAqAAAAfAAAAGIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAqAAAD4gAAAGIA////AAAAAQAAALgAAAPi/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAACoAAAPiAAABGgD///8AAAADAAAHbAAAAMf8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHbAAAAIcA////AAAF7wAAA+IAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEoAAAEDPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAuAAAApgAAAF0BAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAAAAAEDAAAAF0BAAADAAAAAQAAALAAAAQM/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAAAAAAAQMAAABDwEAAAMAAAADAAAHbAAAAMf8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHbAAAAAoBAAADAAAETgAABAwAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAwAAAAD/////AAAAAAAAAAA=
 Width 1920=1900
 eDP1 Height 1080=1036
 eDP1 Width 1920=1900
@@ -20,7 +24,7 @@ ShowCopyMoveMenu=true
 ShowDuplicateHere=false
 
 [Desktop Entry]
-DefaultProfile=Profile 3.profile
+DefaultProfile=
 
 [DetailsMode]
 FontWeight=50
@@ -33,7 +37,7 @@ Width 1920=700
 Favorites=
 
 [General]
-LockPanels=false
+OpenExternallyCalledFolderInNewTab=false
 RememberOpenedTabs=false
 ShowCopyMoveMenu=true
 Version=201
@@ -43,9 +47,9 @@ ViewPropsTimestamp=2019,5,25,0,22,45
 FontWeight=50
 
 [KPropertiesDialog]
-HDMI1 Height 1920x1080=478
+HDMI1 Height 1920x1080=606
 HDMI1 Height 1920x1200=466
-HDMI1 Width 1920x1080=454
+HDMI1 Width 1920x1080=483
 HDMI1 Width 1920x1200=484
 Height 1080=559
 Width 1920=502
@@ -69,7 +73,6 @@ HDMI1 YPosition 1920x1080=34
 HDMI1 YPosition 1920x1200=34
 Height 1080=1036
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAAEoAAAD4vwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAqAAAAfAAAABYA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAqAAAD4gAAAGIA////AAAAAQAAALYAAAPi/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAACoAAAPiAAABMAD///8AAAADAAAHbAAAAMf8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHbAAAACwA////AAAFhgAAA+IAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1920=1900
 eDP1 HDMI1 Height 1080x1920=1900
@@ -93,6 +96,9 @@ eDP1 XPosition 1920x1080=10
 eDP1 YPosition=34
 eDP1 YPosition 1920x1080=34
 
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
 [Notification Messages]
 ConfirmEmptyTrash=true
 
@@ -100,25 +106,36 @@ ConfirmEmptyTrash=true
 CompletionMode=1
 History=ark,za,zathu,flame,fb,fbr,kate,web
 
+[PlacesPanel]
+IconSize=16
+
 [PreviewSettings]
-Plugins=pothumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,gsthumbnail,svgthumbnail,imagethumbnail,directorythumbnail,textthumbnail,ebookthumbnail,ffmpegthumbs,audiothumbnail
+Plugins=audiothumbnail,ebookthumbnail,directorythumbnail,pothumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,gsthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[Search]
+Location=Everywhere
 
 [SettingsDialog]
-HDMI1 Height 1920x1080=571
+HDMI1 Height 1920x1080=438
 HDMI1 Height 1920x1200=509
-HDMI1 Width 1920x1080=733
+HDMI1 Width 1920x1080=589
 HDMI1 Width 1920x1200=540
 Height 1080=520
 Width 1920=571
 eDP1 Height 1920x1080=509
 eDP1 Width 1920x1080=540
 
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
 [VersionControl]
 enabledPlugins=Git
 
 [ViewPropertiesDialog]
+HDMI1 Height 1920x1080=306
+HDMI1 Width 1920x1080=375
 Height 1080=319
 Width 1920=377
 
 [kuick-move]
-Paths[$e]=$HOME/Documents/,$HOME/Music/,$HOME/github-repo/mpv-osc-morden/,$HOME/Desktop/,$HOME/Desktop/My Files/Novels/,$HOME/Pictures/
+Paths[$e]=$HOME/Documents/Books/novels/,$HOME/Documents/,$HOME/Music/,$HOME/github-repo/mpv-osc-morden/,$HOME/Desktop/,$HOME/Desktop/My Files/Novels/,$HOME/Pictures/
