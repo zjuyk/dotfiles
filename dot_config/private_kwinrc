@@ -22,6 +22,8 @@ Name_1=Home
 Name_2=Addition
 Name_3=Addition
 Name_4=Standby
+Name_5=Standby
+Name_6=Standby
 Number=6
 Rows=1
 
@@ -61,7 +63,6 @@ ZPosition=210
 [Effect-DesktopGrid]
 BorderActivate=9
 BorderWidth=2
-CustomLayoutRows=3
 LayoutMode=2
 ShowAddRemove=false
 
