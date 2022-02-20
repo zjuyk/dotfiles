@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default
 
 [Compositing]
 Backend=OpenGL
@@ -75,6 +75,9 @@ WindowTitle=false
 Color=128,128,255
 LineWidth=8
 
+[Effect-Overview]
+LayoutMode=0
+
 [Effect-PresentWindows]
 BorderActivate=9
 BorderActivateAll=9
@@ -120,6 +123,7 @@ kwin4_effect_slidingnotificationsEnabled=true
 kwin4_effect_translucencyEnabled=true
 magnifierEnabled=true
 minimizeallEnabled=false
+overviewEnabled=true
 presentwindowsEnabled=false
 screenedgeEnabled=false
 synchronizeskipswitcherEnabled=false
@@ -196,5 +200,3 @@ ButtonsOnLeft=XIA
 ButtonsOnRight=M
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
-library=org.kde.breezeenhanced
-theme=BreezeEnhanced
