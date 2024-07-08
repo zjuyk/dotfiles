@@ -1,6 +1,0 @@
-encryption = "gpg"
-[gpg]
-	recipient = "zjuyk"
-[git]
-    autoCommit = true
-	autoPush = true
